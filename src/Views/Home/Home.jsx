@@ -7,6 +7,7 @@ import {
 } from "react-bootstrap"
 import Navbar from "../../Components/Navbar/Navbar"
 import Card from "../../Components/Card/Card"
+import Jumbotron from "../../Components/Jumbotron/Jumbotron"
 import "./Home.css"
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
     return (
         <div className="home">
             <Navbar />
+            <Jumbotron />
             <Container>
                 <Row>
                     {users.map((u) => (
